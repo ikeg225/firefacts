@@ -1,6 +1,7 @@
 {
   "name": "firewatch",
   "version": "0.1.0",
+  "homepage": "https://ikeg225.github.io/firefacts",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
