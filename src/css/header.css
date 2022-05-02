@@ -1,0 +1,60 @@
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    font-family: Oswald;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 5px solid black;
+}
+
+.leftHeader, .rightHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftHeader {
+    gap: 10px;
+}
+
+.rightHeader {
+    gap: 20px;
+}
+
+.leftHeader img {
+    max-width: 60px;
+}
+
+.leftHeader h1 {
+    margin: 0;
+}
+
+.rightHeader h1 {
+    margin: 0;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.rightHeader a {
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .rightHeader {
+        display: none;
+    }
+
+    .headerContent {
+        justify-content: center;
+        padding: 10px 50px;
+    }
+} 

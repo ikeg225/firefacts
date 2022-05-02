@@ -1,0 +1,145 @@
+.mainHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frontImage {
+    position: relative;
+    color: white;
+    width: 100%;
+}
+
+.questionSection {
+    max-width: 850px;
+    text-align: left;
+    color: white;
+    margin: 0 30px;
+}
+
+.questionSection h1 {
+    font-family: Oswald;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.frontImage img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 700px;
+}
+
+.imageOverlay {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageOverlay hr {
+    background-color: #f9b235;
+    border: 2px solid #f9b235;
+    margin: 0px 20px;
+    height: 150px;
+}
+
+.leftText {
+    line-height: 70px;
+}
+
+.leftText {
+    font-family: Oswald;
+    font-size: xx-large;
+}
+
+.rightText {
+    font-family: Verdana;
+    font-size: large;
+}
+
+.questionSection h2 {
+    font-family: Oswald;
+    padding: 0 10px;
+    border-left: 5px solid #f9b235;
+    margin-top: 50px;
+}
+
+.questionSection a {
+    color: #f9b235;
+}
+
+a {
+    white-space: pre-wrap; /* CSS3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.box {
+    border: 5px solid #f9b235;
+}
+  
+
+@media only screen and (max-width: 1024px) {
+    .leftText {
+        font-size: x-large;
+        line-height: 60px;
+    }
+
+    .rightText {
+        font-size: small;
+    }
+}  
+
+@media only screen and (max-width: 750px) {
+    .imageOverlay {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftText {
+        font-size: large;
+        line-height: 40px;
+    }
+
+    .rightText {
+        font-size: x-small;
+    }
+
+    .imageOverlay hr {
+        height: 2px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .leftText {
+        font-size: small;
+        line-height: 30px;
+    }
+
+    .rightText {
+        font-size: xx-small;
+    }
+
+    .imageOverlay hr {
+        height: 1px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .leftText {
+        font-size: x-small;
+        line-height: 20px;
+    }
+
+    .rightText {
+        font-size: 7px;
+    }
+}
