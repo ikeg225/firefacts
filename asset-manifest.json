@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/firefacts/static/css/main.95a0fa2a.css",
+    "main.js": "/firefacts/static/js/main.240916ae.js",
+    "static/js/787.47c321a1.chunk.js": "/firefacts/static/js/787.47c321a1.chunk.js",
+    "static/media/matt-howard-eAKDzK4lo4o-unsplash.jpg": "/firefacts/static/media/matt-howard-eAKDzK4lo4o-unsplash.bf5722b1e0ee3f659121.jpg",
+    "static/media/verdana.ttf": "/firefacts/static/media/verdana.5b0da4fe5677451d28a7.ttf",
+    "static/media/Oswald-Bold.ttf": "/firefacts/static/media/Oswald-Bold.67eab536799f9e3d8141.ttf",
+    "static/media/firewatch.webp": "/firefacts/static/media/firewatch.ea97cb30c40b16655af8.webp",
+    "index.html": "/firefacts/index.html",
+    "main.95a0fa2a.css.map": "/firefacts/static/css/main.95a0fa2a.css.map",
+    "main.240916ae.js.map": "/firefacts/static/js/main.240916ae.js.map",
+    "787.47c321a1.chunk.js.map": "/firefacts/static/js/787.47c321a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95a0fa2a.css",
+    "static/js/main.240916ae.js"
+  ]
+}
