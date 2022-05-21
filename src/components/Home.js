@@ -1,11 +1,15 @@
-import homeImage from '../images/matt-howard-eAKDzK4lo4o-unsplash.jpg';
 import '../css/home.css';
+import { useEffect } from "react";
+import homeImage from '../images/matt-howard-eAKDzK4lo4o-unsplash.jpg';
 
-export default function Home({ all, prep, eco, proto, rec, invo}) {
+export default function Home({ all, prep, eco, proto, rec, invo }) {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, [all, prep, eco, proto, rec, invo]);
 
     return (
         <main className="mainHome">
-            <div className="frontImage">
+            {all && <div className="frontImage">
                 <img src={homeImage} alt=""/>
                 <div className="imageOverlay">
                     <div className="leftText">
@@ -16,7 +20,7 @@ export default function Home({ all, prep, eco, proto, rec, invo}) {
                         <h1>Find Answers To<br/>Your California<br/>Wildfire Questions.</h1>
                     </div>
                 </div>
-            </div>
+            </div>}
             <div className="questionSection">
                 {all && <h1 className="box">ALL TOPICS</h1>}
                 {prep && <><h1 id="firePrep">FIRE PREPARATION</h1>
